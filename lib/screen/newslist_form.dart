@@ -37,7 +37,7 @@ class _NewsFormPageState extends State<NewsFormPage> {
           backgroundColor: Colors.indigo,
           foregroundColor: Colors.white,
         ),
-        drawer: LeftDrawer(),
+        // drawer: LeftDrawer(),
         body: Form(
           key: _formKey,
           child: SingleChildScrollView(
